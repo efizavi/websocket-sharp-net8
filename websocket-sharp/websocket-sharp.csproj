@@ -11,6 +11,7 @@
     <Product>websocket-sharp.dll</Product>
     <Copyright>sta.blockhead</Copyright>
     <AssemblyVersion>1.0.2.%2a</AssemblyVersion>
+    <PackageId>websocket-sharp-net8</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug</OutputPath>
