@@ -12,6 +12,11 @@
     <Copyright>sta.blockhead</Copyright>
     <AssemblyVersion>1.0.2.%2a</AssemblyVersion>
     <PackageId>websocket-sharp-net8</PackageId>
+    <Title>A port of the websocket-sharp package to .NET 8.0</Title>
+    <Authors>efizavi</Authors>
+    <PackageProjectUrl>https://github.com/efizavi/websocket-sharp-net8</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/efizavi/websocket-sharp-net8</RepositoryUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug</OutputPath>
@@ -45,6 +50,12 @@
     <Folder Include="Server\" />
     <Folder Include="Net\" />
     <Folder Include="Net\WebSockets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.ServiceModel.Primitives" Version="8.0.0" />
